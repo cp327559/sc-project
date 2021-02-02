@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./smart-cockpit.component.css']
 })
 export class SmartCockpitComponent implements OnInit {
-
+  today: Date;
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.getHeroes();
+  }
+
+  getHeroes(): void {
+    this.today = new Date();
   }
 
 }

@@ -93,10 +93,11 @@ span {
     font-size: 16px;
     color: #fff;
     padding-top: 5px;
+    height: 30px;
 }
 .logo-line {
     background:url(../../image/sc-logo.png) no-repeat;
-    margin-top: 30px ;
+    margin-top: 20px ;
     margin-left: 20px;
     height: 109px;
     width: 100%;
@@ -139,4 +140,64 @@ span {
     white-space:normal;
     word-break:break-all;
     line-height: 1.4;
+}
+.bottom-line {
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.video-line {
+    height: calc((100% - 50px) / 2 );
+}
+.video-item {
+    width: calc((100% - 20px) / 2 );
+    height: 100%;
+    margin: 5px;
+    background-color: #1b2345;
+    float: left;
+    border-radius:5px
+}
+.video-item-lk {
+    margin: 5px;
+    height: calc(100% - 30px);
+    width: calc(100% - 10px);
+
+    background-color:#402820;
+}
+.video-item-btm {
+    text-align: center;
+    height: 20px;
+    color: #fff;
+}
+.info-item {
+    width: calc(100% - 10px);
+    height: 100px;
+    margin: 5px;
+    background-color: #1b2345;
+    float: left;
+    border-radius:5px
+}
+.info-item-left {
+    width: 100px;
+    height: calc(100% - 10px);
+    margin: 5px;
+    background-color: #402820;
+    float: left;
+}
+.info-item-right {
+    width: calc(100% - 120px);
+    height: calc(100% - 10px);
+    margin: 5px;
+    float: left;
+    color:#fff;
+}
+.info-item-right-cont {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+.info-table {
+    width: calc(100% - 10px);
+    height: calc(100% - 110px);
+    margin: 5px;
 }
